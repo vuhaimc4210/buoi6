@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*định dạng hộp*/
+}/*resest định dạng*/
+
+
+/* box model trong css */
+/* margin, padding, border
+box-sizing: border-box, content-box */
+
+/* web component */
+/* layout, row, col 
+position: absolute, relative, fixed
+flex-box */
+
+/* .title{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    //flex-direction: row;
+    justify-content: space-evenly;
+    //justify-content: space-around;
+    //justify-content: space-between
+
+}
+.title__container{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.title__body{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.span1{
+    margin: 50px;
+    border: 1px solid black;
+    padding: 50px;
+} */
+p{
+    color: red
+}
+.p1{
+    color: green;
+}
+.p3{
+    color: blue;
+}
+.h21{
+    color: blue;
+}
+.div1{
+    background-color: wheat;
+    /*code vào phần bên dưới*/
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.div2{
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    /*  code vào phần bên dưới  */
+    border: 3px solid black;
+    border-color: blue;
+    border-radius: 10px;
+}
+.div3{
+    background: wheat;
+    width:400px;
+    border: 2px solid green;
+  /*  Code vào phần bên dưới  */
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding: 45px 40px 45px 40px;
+}
+
+#a >div { 
+    background:wheat;
+    /*  code vào phần bên dưới   */
+    /* margin-left: 40px;
+    margin-right: 60px; */
+    margin: 50px 60px 50px 40px;
+  }
+  #a{
+    /* Không code vào đây */
+    border:1px solid black
+  }
+  .div4{
+    background: red;
+    /* display: inline; */
+  }
+  #span1{
+    background: red;
+  }
+  #span2{
+    background:yellow;
+    display: inline-flex;
+    width: 500px;
+  }
+  .span3{
+    background: red;
+    display: flex;
+  }
+  .div5{
+    background: blue;
+  }
+  .box-model{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      color: white;
+      margin: 20px;
+      padding: 20px;
+      border: 3px solid black;
+      box-sizing: border-box;
+  }
+  
